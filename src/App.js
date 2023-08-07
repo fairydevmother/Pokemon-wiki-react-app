@@ -1,6 +1,3 @@
-
-
-
 import React,{ useEffect, useState } from "react";
 import PokemonThumbnail from "./Components/PokemonThumbnail";
 
@@ -60,6 +57,11 @@ function App() {
        </div>
        
        <button className="button-paper" onClick={()=>getAllPokemons()}>More Pokemons</button>
+     </div>
+
+     <div className="name">
+     
+     <h4> Made with ♥ by Fairydevmother</h4>
      </div>
     </div>
   );
